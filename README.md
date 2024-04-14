@@ -23,7 +23,7 @@ Flask는 웹 애플리케이션을 구축하는 데 필요한 핵심 기�
 ## File explanation
 
 
-
+<br /><br /> 
 ## Version
 
 - python 3.12.2
@@ -31,6 +31,6 @@ Flask는 웹 애플리케이션을 구축하는 데 필요한 핵심 기�
 - pandas 2.2.1
 - opencv-python 4.9.0.80
 - ultralytics 8.1.19
-
+<br /><br /> 
 ## Result
 
