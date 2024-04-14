@@ -1,6 +1,6 @@
 # Project_Image_cls_Flask
 
-Flask를 활용한 이미지 분류 모델 구축
+Flask 서버 구축 및 torchvision 이미지 분류 모델 별 성능 Test
 <br /><br /> 
 <img src="image/dog2.jpg">
 <img src="image/Flask_server_result.png">
