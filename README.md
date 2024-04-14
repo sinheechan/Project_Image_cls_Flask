@@ -7,7 +7,9 @@ Flask를 활용한 이미지 분류 모델 구축
 
 Flask는 웹 애플리케이션을 구축하는 데 필요한 핵심 기능을 제공합니다.
 
-해당 글에서는 이미지 분류 모델서빙을 진행하면서 torchvision에서 제공하는 분류모델의 성능과 특징을 살펴봅니다.
+해당 모델에서는 Mlops를 사용 하기 전 기초적인 Flask 서버를 구축하는 형태를 학습하고
+
+이미지 분류 모델서빙을 진행하면서 torchvision에서 제공하는 분류모델의 성능과 특징을 살펴봅니다.
 <br /><br /> 
 ## Dataset
 
@@ -20,8 +22,10 @@ Flask는 웹 애플리케이션을 구축하는 데 필요한 핵심 기�
 - torchvision 0.17.1
 - jsonify
 <br /><br /> 
-## File explanation
+## model explanation
 
+- densenet121 : 0~999 번 까지의 동,식물의 종류마다 소분류한 클래스들로 구성되었습니다.
+- 
 
 <br /><br /> 
 ## Version
