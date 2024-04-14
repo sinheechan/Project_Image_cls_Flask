@@ -33,20 +33,10 @@ Flask는 웹 애플리케이션을 구축하는 데 필요한 핵심 기�
 - flask-restx 1.3.0
 - torchvision 0.17.1
 - jsonify
-<br /><br /> 
-## model explanation
 
-- densenet121 : 0~999 번 까지의 동,식물의 종류마다 소분류한 클래스들로 구성되었습니다.
-- 
-
-<br /><br /> 
-## Version
-
-- python 3.12.2
-- numpy 1.26.4
-- pandas 2.2.1
-- opencv-python 4.9.0.80
-- ultralytics 8.1.19
 <br /><br /> 
 ## Result
 
+총 4개의 분류 모델에 대한 정확도를 테스트 한 결과, input 데이터 별 모델의 성능이 상이하여 특정 모델에 대한 우선순의 판별이 불가능하며
+
+결국 이미지 데이터 분류 시 input 데이터의 특성과 모델이 선행 모델 자료와의 연관성을 근거로 모델을 선정하는 것이 최선의 성능이 나올 것으로 판단된다.
