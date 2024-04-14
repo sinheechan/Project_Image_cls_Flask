@@ -14,9 +14,15 @@ Flask는 웹 애플리케이션을 구축하는 데 필요한 핵심 기�
 
 이미지 분류 모델서빙을 진행하면서 torchvision에서 제공하는 분류모델의 성능과 특징을 살펴봅니다.
 <br /><br /> 
-## torchvision_cls_model
+## torchvision_cls_model_accuracy
 
+모델 별 분류 정확도는 아래와 같습니다.
 
+|Model|cat|dog1|dog2|
+|------|---|---|---|
+|densenet121|테스트2|테스트3|테스트3|
+|테스트1|테스트2|테스트3|테스트3|
+|테스트1|테스트2|테스트3|테스트3|
 
 <br /><br /> 
 ## Libraries used / Version
