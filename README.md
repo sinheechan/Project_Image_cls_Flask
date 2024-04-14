@@ -18,7 +18,7 @@ Flask는 웹 애플리케이션을 구축하는 데 필요한 핵심 기�
 
 모델 별 분류 카테고리의 결과는 아래와 같습니다.
 
-|Model|cat|dog1|dog2|
+|Cls_Model|cat|dog1|dog2|
 |------|---|---|---|
 |densenet121|0.49|Failure|0.79|
 |resnet18|0.69|0.21|0.79|
